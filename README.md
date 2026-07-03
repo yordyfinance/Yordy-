@@ -1,2 +1,2 @@
-# Yordy-
+# Yordy
 Site oficial da YORDY 
