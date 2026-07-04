@@ -1,10 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>YORDY Finance</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YORDY Finance</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#08080d;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#8b5cf6;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.btn{
+    background:#8b5cf6;
+    color:white;
+    padding:12px 25px;
+    border-radius:10px;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#8b5cf6;
+}
+
+.hero p{
+    font-size:20px;
+    color:#bdbdbd;
+    max-width:700px;
+    margin:auto;
+}
+
+.hero .btn{
+    display:inline-block;
+    margin-top:35px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:50px 20px;
+}
+
+.card{
+    background:#13131d;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#8b5cf6;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#999;
+}
+</style>
 </head>
+
 <body>
-  <h1>Bem-vindo ao YORDY Finance</h1>
-  <p>Seu controle financeiro começa aqui.</p>
+
+<header>
+    <div class="logo">YORDY Finance</div>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Recursos</a>
+        <a href="#">Planos</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Organize suas finanças e <span>conquiste seus sonhos</span></h1>
+
+    <p>
+        Controle receitas, despesas, metas e investimentos
+        de forma simples, segura e inteligente.
+    </p>
+
+    <a href="cadastro.html" class="btn">
+        Criar Conta Grátis
+    </a>
+</section>
+
+<section class="cards">
+
+    <div class="card">
+        <h3>💰 Controle Financeiro</h3>
+        <p>Registre receitas e despesas em segundos.</p>
+    </div>
+
+    <div class="card">
+        <h3>🎯 Metas Financeiras</h3>
+        <p>Defina objetivos e acompanhe seu progresso.</p>
+    </div>
+
+    <div class="card">
+        <h3>📊 Dashboard Inteligente</h3>
+        <p>Veja gráficos e relatórios das suas finanças.</p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 YORDY Finance - Todos os direitos reservados.
+</footer>
+
 </body>
 </html>
